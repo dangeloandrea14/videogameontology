@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/andreadangelo/ontologies/2021/10/videogame"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/andreadangelo/ontologies/2021/10/videogame">
+    <Prefix name="" IRI="http://www.semanticweb.org/andreadangelo/ontologies/2021/10/untitled-ontology-22"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action_Platformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdultGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CasualGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheapGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompetitiveGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competitive_fighting_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competitive_tournaments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompleteGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Console"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CooperativeMultiplayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EasternGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpensiveGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#First-Party_Software_House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GameMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handheld_Console"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware_House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_Console"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterestingGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legacy_tournaments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metroidvania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_tournaments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlineMultiplayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Party_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PopularityPartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puzzle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sandbox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shooter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoryMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Videogame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eSportsPartition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Builds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasEsports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsBuiltBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsMadeBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsPopular"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsPublishedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Makes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Publishes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Runs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RunsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgeRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLimitedEdition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adults"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Everyone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#League_of_Legends"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Riot_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sega"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sonic_Mania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valorant"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AdultGames"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasAgeRating"/>
+                <NamedIndividual IRI="#Adults"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AgeRating"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Adults"/>
+            <NamedIndividual IRI="#Everyone"/>
+            <NamedIndividual IRI="#Teens"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CasualGames"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <ObjectComplementOf>
+                <Class IRI="#CompetitiveGames"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CheapGame"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPrice"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CompetitiveGames"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasEsports"/>
+                <Class IRI="#Competitive_tournaments"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CompleteGame"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <ObjectExactCardinality cardinality="4">
+                <ObjectProperty IRI="#Includes"/>
+                <Class IRI="#GameMode"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EasternGames"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#IsPopular"/>
+                <Class IRI="#Asia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ExpensiveGame"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasPrice"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InterestingGame"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Videogame"/>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#Includes"/>
+                <Class IRI="#GameMode"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PopularityPartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#America"/>
+            <Class IRI="#Asia"/>
+            <Class IRI="#Europe"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#eSportsPartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Competitive_tournaments"/>
+            <Class IRI="#Legacy_tournaments"/>
+            <Class IRI="#No_tournaments"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#Legacy_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_Platformer"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_Platformer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#CooperativeMultiplayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_Platformer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#StoryMode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_Platformer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <ObjectUnionOf>
+                <Class IRI="#CooperativeMultiplayer"/>
+                <Class IRI="#StoryMode"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdultGames"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America"/>
+        <Class IRI="#PopularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#PopularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasualGames"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheapGame"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompetitiveGames"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Competitive_fighting_game"/>
+        <Class IRI="#Fighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Competitive_tournaments"/>
+        <Class IRI="#eSportsPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Console"/>
+        <ObjectUnionOf>
+            <Class IRI="#Handheld_Console"/>
+            <Class IRI="#Home_Console"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Console"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsMadeBy"/>
+            <Class IRI="#Hardware_House"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Console"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Runs"/>
+            <Class IRI="#Videogame"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CooperativeMultiplayer"/>
+        <Class IRI="#GameMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CooperativeMultiplayer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#MOBA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CooperativeMultiplayer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Shooter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CooperativeMultiplayer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Sports"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EasternGames"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europe"/>
+        <Class IRI="#PopularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extras"/>
+        <Class IRI="#GameMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#Competitive_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#CooperativeMultiplayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#Extras"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#OnlineMultiplayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#StoryMode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <ObjectExactCardinality cardinality="4">
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#GameMode"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First-Party_Software_House"/>
+        <Class IRI="#Software_House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First-Party_Software_House"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Makes"/>
+            <Class IRI="#Console"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First-Party_Software_House"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Makes"/>
+            <Class IRI="#Videogame"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First-Party_Software_House"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Makes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Console"/>
+                <Class IRI="#Videogame"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handheld_Console"/>
+        <Class IRI="#Console"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware_House"/>
+        <Class IRI="#Software_House"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware_House"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Makes"/>
+            <Class IRI="#Console"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home_Console"/>
+        <Class IRI="#Console"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legacy_tournaments"/>
+        <Class IRI="#eSportsPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBA"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#Competitive_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#IsPopular"/>
+            <Class IRI="#Asia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metroidvania"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metroidvania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#Legacy_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metroidvania"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasAgeRating"/>
+            <NamedIndividual IRI="#Adults"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_tournaments"/>
+        <Class IRI="#eSportsPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnlineMultiplayer"/>
+        <Class IRI="#GameMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#No_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party_game"/>
+        <Class IRI="#Fighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopularityPartition"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puzzle"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puzzle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#CooperativeMultiplayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puzzle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <Class IRI="#StoryMode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puzzle"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Includes"/>
+            <ObjectUnionOf>
+                <Class IRI="#CooperativeMultiplayer"/>
+                <Class IRI="#StoryMode"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sandbox"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooter"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#Competitive_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooter"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasAgeRating"/>
+            <NamedIndividual IRI="#Adults"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_House"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Makes"/>
+            <Class IRI="#Videogame"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_House"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Publishes"/>
+            <Class IRI="#Videogame"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Videogame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasEsports"/>
+            <Class IRI="#Competitive_tournaments"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasAgeRating"/>
+            <NamedIndividual IRI="#Everyone"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoryMode"/>
+        <Class IRI="#GameMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videogame"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsMadeBy"/>
+            <Class IRI="#Software_House"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videogame"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#RunsOn"/>
+            <Class IRI="#Console"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videogame"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasLimitedEdition"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videogame"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPrice"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eSportsPartition"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Fighting"/>
+        <Class IRI="#MOBA"/>
+        <Class IRI="#Metroidvania"/>
+        <Class IRI="#Other"/>
+        <Class IRI="#Puzzle"/>
+        <Class IRI="#Shooter"/>
+        <Class IRI="#Sports"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#America"/>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Europe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Competitive_tournaments"/>
+        <Class IRI="#Legacy_tournaments"/>
+        <Class IRI="#No_tournaments"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CooperativeMultiplayer"/>
+        <Class IRI="#Extras"/>
+        <Class IRI="#OnlineMultiplayer"/>
+        <Class IRI="#StoryMode"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Handheld_Console"/>
+        <Class IRI="#Home_Console"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#AgeRating"/>
+        <NamedIndividual IRI="#Adults"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRating"/>
+        <NamedIndividual IRI="#Everyone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MOBA"/>
+        <NamedIndividual IRI="#League_of_Legends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Sonic_Mania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandbox"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRating"/>
+        <NamedIndividual IRI="#Teens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shooter"/>
+        <NamedIndividual IRI="#Valorant"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Adults"/>
+        <NamedIndividual IRI="#Everyone"/>
+        <NamedIndividual IRI="#Teens"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Builds"/>
+        <NamedIndividual IRI="#Nintendo"/>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsMadeBy"/>
+        <NamedIndividual IRI="#Sonic_Mania"/>
+        <NamedIndividual IRI="#Sega"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsMadeBy"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <NamedIndividual IRI="#Nintendo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RunsOn"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsMadeBy"/>
+        <NamedIndividual IRI="#Valorant"/>
+        <NamedIndividual IRI="#Riot_Games"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLimitedEdition"/>
+        <NamedIndividual IRI="#Sonic_Mania"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Sonic_Mania"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLimitedEdition"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLimitedEdition"/>
+        <NamedIndividual IRI="#Valorant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Valorant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Builds"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsBuiltBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsPublishedBy"/>
+        <ObjectProperty IRI="#IsMadeBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Publishes"/>
+        <ObjectProperty IRI="#Makes"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Builds"/>
+        <ObjectProperty IRI="#IsBuiltBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Includes"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsMadeBy"/>
+        <ObjectProperty IRI="#Makes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsPublishedBy"/>
+        <ObjectProperty IRI="#Publishes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Runs"/>
+        <ObjectProperty IRI="#RunsOn"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasEsports"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#IsPopular"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Builds"/>
+        <Class IRI="#Hardware_House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsBuiltBy"/>
+        <Class IRI="#Console"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsMadeBy"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsPublishedBy"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Makes"/>
+        <Class IRI="#Software_House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Publishes"/>
+        <Class IRI="#Software_House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Runs"/>
+        <Class IRI="#Console"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RunsOn"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#GameMode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Builds"/>
+        <Class IRI="#Console"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasEsports"/>
+        <Class IRI="#eSportsPartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Includes"/>
+        <Class IRI="#GameMode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsBuiltBy"/>
+        <Class IRI="#Hardware_House"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsMadeBy"/>
+        <Class IRI="#Software_House"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsPopular"/>
+        <Class IRI="#PopularityPartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsPublishedBy"/>
+        <Class IRI="#Software_House"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Makes"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Publishes"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Runs"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RunsOn"/>
+        <Class IRI="#Console"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Videogame"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasPrice"/>
+    </FunctionalDataProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CasualGames</IRI>
+        <Literal>Casual games are the opposite of Competitive Games.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CompetitiveGames</IRI>
+        <Literal>CompetitiveGames are genres that currently have many on-going competitive tournaments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpensiveGame</IRI>
+        <Literal>Expensive Games are defined as games that cost more than 30 euros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#First-Party_Software_House</IRI>
+        <Literal>A first party software house is an hardware house that also publishes games for their own console.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GameMode</IRI>
+        <Literal>A GameMode is one way to play that game: it might be a single-player campaign, an online multiplayer mode, or anything in-between.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InterestingGame</IRI>
+        <Literal>A game is interesting if it includes at least 2 different game modes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PopularityPartition</IRI>
+        <Literal>This is a partition referring to where in the globe, or in which culture, a certain genre is particularly popular.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
